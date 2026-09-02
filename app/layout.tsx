@@ -6,7 +6,7 @@ const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'] });
 const geistMono = Geist_Mono({ variable: '--font-geist-mono', subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.SITE_URL ?? 'http://localhost:3000'),
+  metadataBase: new URL('https://vitrineai-marketplace.luizguilhermeviqunha.chatgpt.site'),
   title: 'VitrineAI — Studio de Marketplace',
   description: 'Crie imagens, títulos e descrições que ajudam seus produtos a vender mais em marketplaces.',
   openGraph: {

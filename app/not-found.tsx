@@ -1,0 +1,1 @@
+export default function NotFound() { return <main className="mx-auto max-w-lg px-5 py-24 text-center"><h1 className="text-3xl font-extrabold">Produto ou página indisponível</h1><p className="my-5 text-sm text-muted-foreground">O item pode não estar mais disponível no catálogo.</p><a href="/" className="font-semibold text-primary underline">Voltar ao catálogo</a></main>; }
